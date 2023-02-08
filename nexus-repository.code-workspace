@@ -1,0 +1,9 @@
+{
+  "folders": [
+	{
+		"name": "nexus-repository",
+		"path": "."
+	}
+],
+  "settings": {}
+}

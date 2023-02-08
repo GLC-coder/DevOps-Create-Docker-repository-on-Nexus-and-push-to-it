@@ -39,7 +39,9 @@ Step 5: Configure Nexus, DigitalOcean Droplet and Docker to be able to push to D
 
 ######Update droplet server firewall with docker port: 8083
 ![Alt text](/image/Screenshot%202023-02-08%20at%2010.00.53%20pm.png?raw=true)
-######Add Docker Bearer Token Realm into Realms to authenticate docker interact with Nexus
+
+###### Add Docker Bearer Token Realm into Realms to authenticate docker interact with Nexus
+
 ![Alt text](/image/Screenshot%202023-02-08%20at%2010.03.16%20pm.png?raw=true)
 ######Configure docker decker engine with nexus ip and docker running port number to allow docker interact with unsecure http request
 ![Alt text](/image/Screenshot%202023-02-08%20at%2010.08.43%20pm.png?raw=true)
